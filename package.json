@@ -1,0 +1,22 @@
+json
+Копіювати код
+{
+  "name": "base-voting-dapp",
+  "version": "1.0.0",
+  "description": "A decentralized voting application on the Base blockchain.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",  // Запуск frontend-части
+    "test": "truffle test",         // Запуск тестов
+    "migrate": "truffle migrate"    // Миграция смарт-контрактов
+  },
+  "dependencies": {
+    "web3": "^1.7.0"                 // Взаимодействие с блокчейном
+  },
+  "devDependencies": {
+    "truffle": "^5.4.0",            // Truffle framework
+    "ganache-cli": "^6.12.2"        // Локальная тестовая блокчейн-среда
+  },
+  "author": "aleksholder",
+  "license": "MIT"
+}
